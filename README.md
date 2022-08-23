@@ -20,11 +20,8 @@ For that i've tried alot of approaches and my final submission contains :
 * Drop outliers (rows with the same data but different categories)
 * Oversampling using SMOTE
 * StratifiedKFold with 5 split
+* NLP features : Automatic clustering using KMeans from CountVectrozer
 * Stacking models and use OneVsRestClassifier from sklean
 
-## Final thoughts on what might improve accuracy
-Thoughts about treating it as an nlp text. add a lot of text features (num_of_words, length...etc).
-Use CountVectorizer to count the frequencies of each word and make clusters other than label encode.
-Try ensemble simple models
 
 Although I didn't get good rank 30/221, the amount of feature engineering and modeling ideas I got from this competition was a treasure.
