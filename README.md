@@ -27,4 +27,4 @@ Thoughts about treating it as an nlp text. add a lot of text features (num_of_wo
 Use CountVectorizer to count the frequencies of each word and make clusters other than label encode.
 Try ensemble simple models
 
-### Although I didn't get good rank 30/221, the amount of feature engineering and modeling ideas I got from this competition was a treasure.
+Although I didn't get good rank 30/221, the amount of feature engineering and modeling ideas I got from this competition was a treasure.
